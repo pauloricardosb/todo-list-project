@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+body {
+  background-color: #8bc6ec;
+  background-image: linear-gradient(135deg, #8bc6ec 0%, #9599e2 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Main Section CSS */
+
+#page-header {
+  font-size: larger;
+}
+
+#main-section {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 2px 16px;
+  width: fit-content;
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 35%;
+  border-radius: 5px;
+  border: 2px solid #7a86b6;
+  background-color: white;
+}
+
+#main-section:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+#new-task-input {
+  border: 1px solid;
+  padding: 5px;
+  border-radius: inherit;
+  border-color: #7a86b6;
+  margin: 0px 10px;
+}
+
+/* Section Button CSS */
+
+#criar-tarefa {
+  background-color: #7a86b6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  transition-duration: 0.4s;
+}
+
+#button-section {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  margin-left: 80%;
+  margin-top: 10%;
+  padding: 50px;
+}
+
+.btn-section {
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 10px;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  transition-duration: 0.4s;
+}
+
+#apaga-tudo:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+#remover-finalizados:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+#remover-selecionado:hover {
+  background-color: #008cba;
+  color: white;
+}
+
+#salvar-tarefas:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+#criar-tarefa:hover {
+  background-color: #4caf50;
+  color: white;
+}
