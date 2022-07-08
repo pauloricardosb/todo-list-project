@@ -10,7 +10,7 @@ Para usar, verifique os seguintes requisitos:
 
 - Você ter instalado `VSCode e extensão Live Server`
 
-⚠️ Obs.: Caso não tenha as ferramentas acima, você pode acessar a aplicação <a href="" >aqui</a>
+⚠️ Obs.: Caso não tenha as ferramentas acima, você pode acessar a aplicação <a href="https://todo-list-project-beta.vercel.app/" >aqui</a>
 
 ## ☕ Usando ToDo List Project
 
